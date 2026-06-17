@@ -60,7 +60,7 @@ This project builds an automated computer vision pipeline that classifies worker
 <summary><b>📈 Click to see training curves (frozen base vs fine-tuned)</b></summary>
 <br>
 <p align="center">
-  <img src="docs/images/chart_learning_curves.jpg" width="850" alt="Learning curves before fine-tuning">
+  <img src="https://github.com/Mart07-hub/Machine-Learning-Capstone-Project---PPE-Compliance-Monitoring-using-CNNs-and-MobileNetV2/blob/main/chart_learning_curves.jpg?raw=true" width="850" alt="Learning curves before fine-tuning">
 </p>
 </details>
 
