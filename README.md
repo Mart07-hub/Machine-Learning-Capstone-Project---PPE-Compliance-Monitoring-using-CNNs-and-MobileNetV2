@@ -14,7 +14,7 @@ It is a computer vision application developed to automatically determine whether
 
 **A binary image classifier that determines whether a construction worker is wearing a safety helmet — built from scratch as a CNN, then improved 8 percentage points using MobileNetV2 transfer learning, and deployed as a live web application.**
 
-[Live Demo](#-live-demo) · [Results](#-results) · [Quick Start](#-quick-start) · [Project Structure](#-project-structure) · [Documentation](#-full-documentation)
+[Live Demo](#-live-demo) · [Results](#-results) · [Quick Start](#-quick-start) · [Documentation](#-full-documentation)
 
 </div>
 
@@ -81,7 +81,7 @@ The trained MobileNetV2 model is deployed as an interactive Streamlit app with f
 streamlit run app/PPE_appNewFinal.py
 ```
 
-> Want to see it without running it locally? A short screen-recording walkthrough is linked in ("C:\Users\marth\Desktop\PPE DATASET\ppe-repo\docs\images\Demo.mp4").
+> Want to see it without running it locally? A short screen-recording walkthrough is saved as Demo.zip
 
 ---
 
@@ -93,7 +93,7 @@ Two architectures were trained and compared on the same data and the same evalua
 
 **2. MobileNetV2 (transfer learning + fine-tuning)** — ImageNet-pretrained MobileNetV2 used as a frozen feature extractor, with a custom classification head (`GlobalAveragePooling → BatchNorm → Dense(128) → Dropout → Sigmoid`) trained on top. The last 20 base layers were then unfrozen and fine-tuned at a much lower learning rate to adapt low-level features to the PPE domain.
 
-Three class-imbalance strategies were benchmarked against each other rather than picked arbitrarily: **class weighting**, **oversampling**, and **oversampling + augmentation**. The full reasoning and run-by-run comparison is in the [experiment log](docs/PPE_Compliance_Monitoring_Documentation.docx).
+Three class-imbalance strategies were benchmarked against each other rather than picked arbitrarily: **class weighting**, **oversampling**, and **oversampling + augmentation**. The full reasoning and run-by-run comparison is in the [experiment log](https://github.com/Mart07-hub/Machine-Learning-Capstone-Project---PPE-Compliance-Monitoring-using-CNNs-and-MobileNetV2/blob/main/PPE_Compliance_Monitoring_Documentation_Group%205.docx).
 
 ```mermaid
 flowchart LR
@@ -157,7 +157,7 @@ The app opens automatically at `http://localhost:8501`.
 - **Size:** 1,328 images total — 1,060 train / 134 validation / 134 test (pre-split by provider)
 - **Class balance:** 78.3% Compliant / 21.7% Non-Compliant in training (≈3.6:1)
 
-Full dataset characteristics, preprocessing steps, and known limitations are documented in the [data card](docs/PPE_Compliance_Monitoring_Documentation).
+Full dataset characteristics, preprocessing steps, and known limitations are documented in the [data card](https://github.com/Mart07-hub/Machine-Learning-Capstone-Project---PPE-Compliance-Monitoring-using-CNNs-and-MobileNetV2/blob/main/PPE_Compliance_Monitoring_Documentation_Group%205.docx).
 
 ---
 
@@ -185,7 +185,7 @@ This project documents its limitations rather than hiding them:
 
 This repository includes complete ML documentation beyond this README:
 
-- **[Data Card, Model Card & Experiment Log](docs/PPE_Compliance_Monitoring_Documentation.docx)** — dataset details, every training run with rationale, full model architecture specs, and reproduction steps
+- **[Data Card, Model Card & Experiment Log](https://github.com/Mart07-hub/Machine-Learning-Capstone-Project---PPE-Compliance-Monitoring-using-CNNs-and-MobileNetV2/blob/main/PPE_Compliance_Monitoring_Documentation_Group%205.docx)** — dataset details, every training run with rationale, full model architecture specs, and reproduction steps
 
 
 ---
