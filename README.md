@@ -78,10 +78,10 @@ The trained MobileNetV2 model is deployed as an interactive Streamlit app with f
 | ℹ️ **About** | Model details and project goals |
 
 ```bash
-streamlit run app/PPE_app.py
+streamlit run app/PPE_appNewFinal.py
 ```
 
-> Want to see it without running it locally? A short screen-recording walkthrough is linked in [docs/](docs/).
+> Want to see it without running it locally? A short screen-recording walkthrough is linked in ("C:\Users\marth\Desktop\PPE DATASET\ppe-repo\docs\images\Demo.mp4").
 
 ---
 
