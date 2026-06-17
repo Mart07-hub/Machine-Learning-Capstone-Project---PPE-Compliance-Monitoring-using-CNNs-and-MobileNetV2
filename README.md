@@ -53,7 +53,7 @@ This project builds an automated computer vision pipeline that classifies worker
 
 <p align="center">
   <img src="https://github.com/Mart07-hub/Machine-Learning-Capstone-Project---PPE-Compliance-Monitoring-using-CNNs-and-MobileNetV2/blob/main/chart_roc_curve.jpg?raw=true" width="430" alt="ROC curve comparison">
-  <img src="docs/images/chart_pr_curve.jpg" width="430" alt="Precision-Recall curve comparison">
+  <img src="https://github.com/Mart07-hub/Machine-Learning-Capstone-Project---PPE-Compliance-Monitoring-using-CNNs-and-MobileNetV2/blob/main/chart_pr_curve.jpg?raw=true" width="430" alt="Precision-Recall curve comparison">
 </p>
 
 <details>
