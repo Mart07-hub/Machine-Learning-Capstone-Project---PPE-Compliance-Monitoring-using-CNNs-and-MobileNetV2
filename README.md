@@ -81,7 +81,7 @@ The trained MobileNetV2 model is deployed as an interactive Streamlit app with f
 streamlit run app/PPE_appNewFinal.py
 ```
 
-> Want to see it without running it locally? A short screen-recording walkthrough is saved as Demo.zip
+> Want to see it without running it locally? A short screen-recording walkthrough is linked as [Demo](Demo.zip)
 
 ---
 
