@@ -1,0 +1,11 @@
+tensorflow>=2.10
+numpy
+scikit-learn
+matplotlib
+seaborn
+scikit-image
+tqdm
+pyyaml
+h5py
+streamlit
+Pillow
