@@ -48,7 +48,7 @@ This project builds an automated computer vision pipeline that classifies worker
 > MobileNetV2 misclassified only **2 images out of 134** in the test set — both of which were out-of-domain (an indoor portrait and a night-time cycling photo), not actual construction-site failures.
 
 <p align="center">
-  <img src="docs/images/chart_confusion_matrix.jpg" width="850" alt="Confusion matrix: Scratch CNN vs MobileNetV2">
+  <img src="https://github.com/Mart07-hub/Machine-Learning-Capstone-Project---PPE-Compliance-Monitoring-using-CNNs-and-MobileNetV2/blob/main/chart_confusion_matrix.jpg?raw=true" width="850" alt="Confusion matrix: Scratch CNN vs MobileNetV2">
 </p>
 
 <p align="center">
@@ -209,7 +209,7 @@ This project documents its limitations rather than hiding them:
 This repository includes complete ML documentation beyond this README:
 
 - **[Data Card, Model Card & Experiment Log](docs/PPE_Compliance_Monitoring_Documentation.docx)** — dataset details, every training run with rationale, full model architecture specs, and reproduction steps
-- **[Presentation Speaker Script](docs/PPE_Presentation_Speaker_Script.docx)** — the full slide-by-slide walkthrough used to present these findings
+
 
 ---
 
