@@ -111,30 +111,7 @@ flowchart LR
 
 ---
 
-## 📂 Project Structure
 
-```
-ppedataset/
-│
-├── notebooks/
-│   └── PPE_Compliance_Monitoring.ipynb   # Full training & evaluation pipeline
-│
-├── app/
-│   └── PPE_app.py                        # Streamlit deployment application
-│
-├── models/
-│   ├── mobilenet_ppe_model.keras         # Saved production model (Git LFS / Release asset)
-│   └── class_names.json                  # ["No Helmet", "Helmet"]
-│
-├── docs/
-│   ├── PPE_Compliance_Monitoring_Documentation.docx   # Full ML documentation (data card, model card, experiment log)
-│   ├── PPE_Presentation_Speaker_Script.docx           # Presentation script
-│   └── images/                           # Result charts used in this README
-│
-├── requirements.txt
-├── LICENSE
-├── .gitignore
-└── README.md
 ```
 
 ---
@@ -158,7 +135,7 @@ source venv/bin/activate        # On Windows: venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
-```
+
 
 ### Run the notebook
 ```bash
@@ -167,7 +144,7 @@ jupyter notebook notebooks/PPE_Compliance_Monitoring.ipynb
 
 ### Run the app
 ```bash
-streamlit run app/PPE_app.py
+streamlit run app/PPE_appNewFinal.py
 ```
 The app opens automatically at `http://localhost:8501`.
 
